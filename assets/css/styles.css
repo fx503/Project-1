@@ -1,0 +1,51 @@
+@import "bootstrap-rtl.css";
+@import "_top-nav.css";
+@import "_banner-carousel.css";
+@import "_icons.css";
+@import "_categories.css";
+@import "_nav-tab.css";
+@import "_owl-carousel-1.css";
+@import "_ads.css";
+@import "_footer-section.css";
+@font-face {
+    font-family: Vazir-Medium;
+    src: url("../fonts/Vazir-Medium.eot")format("eot");
+    src: url("../fonts/Vazir-Medium.woff")format("woff");
+    src: url("../fonts/Vazir-Medium.woff2")format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Vazir-Medium;
+
+}
+body{
+    direction: rtl;
+}
+a{
+    text-decoration: none;
+}
+li,
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p{
+    margin: 0!important;
+}
+@media (max-width: 768px) {
+    .mt-csm-1{
+        margin-top: 1rem!important;
+    }
+    .mt-csm-2{
+        margin-top: 2rem!important;
+    }
+    .mt-csm-3{
+        margin-top: 3rem!important;
+    }
+}

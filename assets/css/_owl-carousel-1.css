@@ -1,0 +1,32 @@
+/*.custom-owl-carousel .owl-stage-outer .owl-stage .owl-item .card img{*/
+    /*width: 200px;*/
+/*}*/
+/*.custom-owl-carousel .owl-stage-outer .owl-stage .owl-item .card{*/
+    /*border: none;*/
+/*}*/
+.custom-card img{
+    width:200px!important;
+}
+.custom-card{
+    border: none;
+}
+.custom-card:hover{
+    box-shadow: 0 0 7px 1px #efefef;
+    z-index: 1;
+    cursor: pointer;
+}
+.carousel-top-title{
+    border-bottom: 3px solid red;
+    position: absolute;
+    top: -20px;
+    right: 16px;
+}
+.owl-nav{
+    position: absolute;
+    top: 45%;
+    display: flex;
+    justify-content: space-between!important;
+    align-items: center;
+    width: 100%;
+    font-size: 40px
+}

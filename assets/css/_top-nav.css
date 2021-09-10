@@ -1,0 +1,44 @@
+.top-nav-top p{
+    font-size: 14px;
+}
+.top-nav-top ul li a{
+    font-size: 14px;
+}
+.top-nav-top ul li{
+    border-left: 1px solid white;
+}
+.shopping-cart .dropdown-menu{
+    width: 300px;
+}
+.shopping-cart .dropdown-menu ul li img{
+    width: 80px;
+}
+.custom-nav-item{
+    position: unset;
+}
+.custom-nav-item .dropdown-menu{
+    position: absolute;
+    width: 100%;
+}
+.img-container img{
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+}
+.img-container{
+    position: relative;
+}
+.links-container a{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 1rem;
+    color: #404040;
+    transition: .5s ease;
+}
+.links-container a:hover{
+    margin-right: 15px;
+    color: rgba(0, 0, 255, 0.52);
+}
+.links-container a i{
+    vertical-align: -3px;
+}

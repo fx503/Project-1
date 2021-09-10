@@ -1,0 +1,7 @@
+.category-box:hover{
+    box-shadow: 0 0 12px 8px #efefef;
+    cursor: pointer;
+}
+.category-box p, .category-box a{
+    font-size:13px;
+}

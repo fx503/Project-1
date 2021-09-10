@@ -1,0 +1,34 @@
+.footer-container p{
+    font-size: 13px;
+}
+.footer-container h6{
+    font-size: 14px;
+}
+.footer-column a{
+    color: #444444;
+    margin-top: 1rem;
+    font-size: 13px;
+}
+.footer-column p{
+    border-bottom: 3px solid #efefef;
+}
+.footer-column a:hover{
+    color: rgba(0, 0, 255, 0.46);
+}
+.custom-border-bottom{
+    border-bottom: 3px solid #efefef;
+}
+.contact-border a:hover{
+    color: rgba(0, 0, 255, 0.46);
+}
+.contact-border a{
+    color: #444444;
+    margin-top: 1rem;
+    font-size: 13px;
+}
+.custom-font{
+    font-size: 13px;
+}
+.custom-font-2 a{
+    font-size: 16px;
+}

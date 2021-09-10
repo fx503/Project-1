@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه آنلاین</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+</head>
+<body dir="rtl">
+<!--start top nav-->
+<div class="container-fluid bg-dark">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 top-nav-top d-flex justify-content-xl-between align-items-center justify-content-lg-center justify-content-md-center justify-content-sm-center">
+                    <p class="text-white d-none d-xl-block">ارسال رایگان - ضمانت بازگشت وجه 30 روزه</p>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">آدرس فروشگاه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">پیگیری سفارش</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">تلفن: 09120000000</a>
+                        </li>
+                        <li class="nav-item d-none d-xl-block">
+                            <a class="nav-link text-white" href="#">ضمانت کیفیت محصولات</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-8">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-secondary dropdown-toggle text-white" type="button" data-toggle="dropdown">دسته بندی ها</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">لب تاپ</a>
+                                <a class="dropdown-item" href="#">موبایل</a>
+                                <a class="dropdown-item" href="#">لوازم خانگی</a>
+                                <a class="dropdown-item" href="#">لوازم صوتی تصویری</a>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" placeholder="جستجو در بین بیش از 250000 کالا...">
+                        <div class="input-group-append">
+                            <button class="btn btn-success" type="button">بگرد</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 d-flex justify-content-center">
+                    <div class="dropdown show shopping-cart">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown">
+                            سبد خرید <i class="fas fa-cart-plus"></i>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <ul>
+                                <li class="d-flex justify-content-between align-items-center">
+                                    <img class="img-thumbnail ml-1" src="assets/img/chair.jpg" alt="">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <p>صندلی چوبی</p>
+                                        <p> ساخت ایران</p>
+                                        <p>120000 تومان</p>
+                                    </div>
+                                    <button type="button" class="close" aria-label="Close">
+                                        <span class="mr-1" aria-hidden="true">&times;</span>
+                                    </button>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center mt-1">
+                                    <img class="img-thumbnail ml-1" src="assets/img/ipad.jpg" alt="">
+                                    <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <p>تبلت آیپد</p>
+                                        <p>2000000 تومان</p>
+                                    </div>
+                                    <button type="button" class="close" aria-label="Close">
+                                        <span class="mr-1" aria-hidden="true">&times;</span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <a class="navbar-brand" href="#">فروشگاه</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-white" href="#">خانه</a>
+                                </li>
+                                <li class="nav-item dropdown custom-nav-item">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        لوازم خانگی
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-4 links-container">
+                                                <a class="d-block" href="#">ماشین لباس شویی <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">یخچال و فریزر <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">اجاق گاز <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">لوازم صوتی و تصویری <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">مبلمان <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">فرش و قالیچه <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">ماشین ظرفشویی <i class="fas fa-angle-left"></i></a>
+                                            </div>
+                                            <div class="col-sm-12 col-md-4 links-container">
+                                                <a class="d-block" href="#">ماشین لباس شویی <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">یخچال و فریزر <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">اجاق گاز <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">لوازم صوتی و تصویری <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">مبلمان <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">فرش و قالیچه <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">ماشین ظرفشویی <i class="fas fa-angle-left"></i></a>
+                                            </div>
+                                            <div class="col-lg-4 d-md-none d-lg-block img-container">
+                                                <img class="img-fluid" src="assets/img/home-equipment.png" alt="">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown custom-nav-item">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                                        سوپرمارکت
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-4 links-container">
+                                                <a class="d-block" href="#">ماشین لباس شویی <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">یخچال و فریزر <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">اجاق گاز <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">لوازم صوتی و تصویری <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">مبلمان <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">فرش و قالیچه <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">ماشین ظرفشویی <i class="fas fa-angle-left"></i></a>
+                                            </div>
+                                            <div class="col-sm-12 col-md-4 links-container">
+                                                <a class="d-block" href="#">ماشین لباس شویی <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">یخچال و فریزر <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">اجاق گاز <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">لوازم صوتی و تصویری <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">مبلمان <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">فرش و قالیچه <i class="fas fa-angle-left"></i></a>
+                                                <a class="d-block" href="#">ماشین ظرفشویی <i class="fas fa-angle-left"></i></a>
+                                            </div>
+                                            <div class="col-lg-4 d-md-none d-lg-block img-container">
+                                                <img class="img-fluid" src="assets/img/home-equipment.png" alt="">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                                        لوازم دیجیتال
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                                        لوازم خودرو
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">درباره ما</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">تماس با ما</a>
+                                </li>
+                            </ul>
+                            <a class="text-decoration-none text-warning" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-user"></i> ورود</a>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title w-100 text-center" id="exampleModalLabel">ورود به سایت</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group mt-3">
+                                                    <label for="exampleInputEmail1">ایمیل</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="...">
+                                                </div>
+                                                <div class="form-group mt-3">
+                                                    <label for="exampleInputPassword1">کلمه عبور</label>
+                                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="...">
+                                                </div>
+                                                <div class="form-check mt-3 ml-4">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">مرا به خاطر بسپار</label>
+                                                </div>
+                                                <button type="submit" class="btn btn-success w-100 mt-3">ورود</button>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer d-flex justify-content-around">
+                                            <a href="#" class="text-decoration-none">رمز خود را فراموش کرده اید؟</a>
+                                            <a href="#" class="text-decoration-none">ثبت نام در سایت</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end top nav-->
+<!--start banner and carousel-->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-12 col-md-6">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/img/chair2.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>اسباب و اثاثیه منزل</h5>
+                            <p class="bg-warning">بهترین کیفیت اسباب و اثاثیه منزل با ضمانت</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/house.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>لوازم منزل</h5>
+                            <p class="bg-warning">بهترین برندهای لوازم خانگی</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/phone.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>گوشی های هوشمند</h5>
+                            <p class="bg-warning">انواع و اقسام گوشی موبایل هوشمند با گارانتی</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 d-flex align-items-stretch mt-csm-1">
+            <img class="img-fluid" src="assets/img/b2.jpg" alt="">
+        </div>
+    </div>
+</div>
+<!--end banner and carousel-->
+<!--start icons row-->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-12 col-md-3 d-flex justify-content-around align-items-center">
+            <img src="assets/img/icons/fast1.png" alt="">
+            <div class="d-flex flex-column justify-content-center align-items-center icon-cap-container">
+                <p>ارسال رایگان</p>
+                <p>به سراسر کشور</p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-3 d-flex justify-content-around align-items-center">
+            <img src="assets/img/icons/hand-shake1.png" alt="">
+            <div class="d-flex flex-column justify-content-center align-items-center icon-cap-container">
+                <p>خرید قسطی</p>
+                <p>اقساط ماهانه</p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-3 d-flex justify-content-around align-items-center">
+            <img src="assets/img/icons/credit-card1.png" alt="">
+            <div class="d-flex flex-column justify-content-center align-items-center icon-cap-container">
+                <p>پرداخت اینترنتی</p>
+                <p>درگاه مطمئن</p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-3 d-flex justify-content-around align-items-center">
+            <img src="assets/img/icons/fast1.png" alt="">
+            <div class="d-flex flex-column justify-content-center align-items-center icon-cap-container">
+                <p>ارسال رایگان</p>
+                <p>به سراسر کشور</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--end icons row-->
+<!--start banners section 1-->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-12 col-md-3 mt-csm-1">
+            <img class="img-fluid rounded" src="assets/img/b4.jpg" alt="">
+        </div>
+        <div class="col-sm-12 col-md-3 mt-csm-1">
+            <img class="img-fluid rounded" src="assets/img/b5.jpg" alt="">
+        </div>
+        <div class="col-sm-12 col-md-3 mt-csm-1">
+            <img class="img-fluid rounded" src="assets/img/b6.jpg" alt="">
+        </div>
+        <div class="col-sm-12 col-md-3 mt-csm-1">
+            <img class="img-fluid rounded" src="assets/img/b7.jpg" alt="">
+        </div>
+    </div>
+</div>
+<!--end banners section 1-->
+<!--start categories section-->
+<div class="container mt-5 bg-light">
+    <div class="row">
+        <div class="col-12 mt-5">
+            <p class="text-center">انتخاب از میان بیش از 250000 محصول...</p>
+        </div>
+        <div class="col-12 mt-5 mb-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-3 d-flex flex-column justify-content-center align-items-center mt-csm-2 category-box">
+                    <img src="assets/img/icons/icons8-computer-64.png" alt="">
+                    <p>کامپیوتر</p>
+                    <a class="text-decoration-none" href="#">بیش از 80000 محصول</a>
+                </div>
+                <div class="col-sm-12 col-md-3 d-flex flex-column justify-content-center align-items-center mt-csm-2 category-box">
+                    <img src="assets/img/icons/icons8-pencil-64.png" alt="">
+                    <p>لوازم التحریر</p>
+                    <a class="text-decoration-none" href="#">بیش از 80000 محصول</a>
+                </div>
+                <div class="col-sm-12 col-md-3 d-flex flex-column justify-content-center align-items-center mt-csm-2 category-box">
+                    <img src="assets/img/icons/icons8-pot-64.png" alt="">
+                    <p>لوازم خانگی</p>
+                    <a class="text-decoration-none" href="#">بیش از 80000 محصول</a>
+                </div>
+                <div class="col-sm-12 col-md-3 d-flex flex-column justify-content-center align-items-center mt-csm-2 category-box">
+                    <img src="assets/img/icons/icons8-iphone-x-60.png" alt="">
+                    <p>گوشی موبایل</p>
+                    <a class="text-decoration-none" href="#">بیش از 80000 محصول</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end categories section-->
+<!--start nav-tab section-->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <p class="nav-tabs-title">پیشنهادهای ویژه</p>
+            <ul class="nav nav-tabs custom-nav-tabs" id="myTab" role="tablist" dir="ltr">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">کامپیوتر</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">موبایل</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">لوازم خانگی</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 d-flex justify-content-around align-items-center nav-tabs-card">
+                                <img src="assets/img/laptop.png" alt="">
+                                <div class="d-flex flex-column justify-content-center align-items-center nav-tabs-card-desc">
+                                    <a class="mt-2" href="#">لب تاپ asus-fx503</a>
+                                    <p class="mt-2"> <s class="text-danger">12500000 تومان</s> 8750000 تومان</p>
+                                    <p class="mt-2 rating-stars"><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 d-flex justify-content-around align-items-center nav-tabs-card">
+                                <img src="assets/img/asus-zenbook.png" alt="">
+                                <div class="d-flex flex-column justify-content-center align-items-center nav-tabs-card-desc">
+                                    <a class="mt-2" href="#">لب تاپ asus-zenbook</a>
+                                    <p class="mt-2"> <s class="text-danger">12500000 تومان</s> 8750000 تومان</p>
+                                    <p class="mt-2 rating-stars"><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 d-flex justify-content-around align-items-center nav-tabs-card">
+                                <img src="assets/img/surface-pro.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center align-items-center nav-tabs-card-desc">
+                                    <a class="mt-2" href="#">لب تاپ surface pro</a>
+                                    <p class="mt-2"> <s class="text-danger">12500000 تومان</s> 8750000 تومان</p>
+                                    <p class="mt-2 rating-stars"><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 d-flex justify-content-around align-items-center nav-tabs-card">
+                                <img src="assets/img/monitor1.png" alt="">
+                                <div class="d-flex flex-column justify-content-center align-items-center nav-tabs-card-desc">
+                                    <a class="mt-2" href="#">مانیتور LG-273</a>
+                                    <p class="mt-2"> <s class="text-danger">12500000 تومان</s> 8750000 تومان</p>
+                                    <p class="mt-2 rating-stars"><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 d-flex justify-content-around align-items-center nav-tabs-card">
+                                <img src="assets/img/laptop.png" alt="">
+                                <div class="d-flex flex-column justify-content-center align-items-center nav-tabs-card-desc">
+                                    <a class="mt-2" href="#">لب تاپ asus-fx503</a>
+                                    <p class="mt-2"> <s class="text-danger">12500000 تومان</s> 8750000 تومان</p>
+                                    <p class="mt-2 rating-stars"><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 d-flex justify-content-around align-items-center nav-tabs-card">
+                                <img src="assets/img/asus-zenbook.png" alt="">
+                                <div class="d-flex flex-column justify-content-center align-items-center nav-tabs-card-desc">
+                                    <a class="mt-2" href="#">لب تاپ asus-zenbook</a>
+                                    <p class="mt-2"> <s class="text-danger">12500000 تومان</s> 8750000 تومان</p>
+                                    <p class="mt-2 rating-stars"><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 d-flex justify-content-around align-items-center nav-tabs-card">
+                                <img src="assets/img/surface-pro.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center align-items-center nav-tabs-card-desc">
+                                    <a class="mt-2" href="#">لب تاپ surface pro</a>
+                                    <p class="mt-2"> <s class="text-danger">12500000 تومان</s> 8750000 تومان</p>
+                                    <p class="mt-2 rating-stars"><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 d-flex justify-content-around align-items-center nav-tabs-card">
+                                <img src="assets/img/monitor1.png" alt="">
+                                <div class="d-flex flex-column justify-content-center align-items-center nav-tabs-card-desc">
+                                    <a class="mt-2" href="#">مانیتور LG-273</a>
+                                    <p class="mt-2"> <s class="text-danger">12500000 تومان</s> 8750000 تومان</p>
+                                    <p class="mt-2 rating-stars"><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 d-flex justify-content-around align-items-center nav-tabs-card">
+                                <img src="assets/img/laptop.png" alt="">
+                                <div class="d-flex flex-column justify-content-center align-items-center nav-tabs-card-desc">
+                                    <a class="mt-2" href="#">لب تاپ asus-fx503</a>
+                                    <p class="mt-2"> <s class="text-danger">12500000 تومان</s> 8750000 تومان</p>
+                                    <p class="mt-2 rating-stars"><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 d-flex justify-content-around align-items-center nav-tabs-card">
+                                <img src="assets/img/asus-zenbook.png" alt="">
+                                <div class="d-flex flex-column justify-content-center align-items-center nav-tabs-card-desc">
+                                    <a class="mt-2" href="#">لب تاپ asus-zenbook</a>
+                                    <p class="mt-2"> <s class="text-danger">12500000 تومان</s> 8750000 تومان</p>
+                                    <p class="mt-2 rating-stars"><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 d-flex justify-content-around align-items-center nav-tabs-card">
+                                <img src="assets/img/surface-pro.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center align-items-center nav-tabs-card-desc">
+                                    <a class="mt-2" href="#">لب تاپ surface pro</a>
+                                    <p class="mt-2"> <s class="text-danger">12500000 تومان</s> 8750000 تومان</p>
+                                    <p class="mt-2 rating-stars"><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 d-flex justify-content-around align-items-center nav-tabs-card">
+                                <img src="assets/img/monitor1.png" alt="">
+                                <div class="d-flex flex-column justify-content-center align-items-center nav-tabs-card-desc">
+                                    <a class="mt-2" href="#">مانیتور LG-273</a>
+                                    <p class="mt-2"> <s class="text-danger">12500000 تومان</s> 8750000 تومان</p>
+                                    <p class="mt-2 rating-stars"><i class="far fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end nav-tab section-->
+<!--start owl carousel-1-->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <p class="carousel-top-title">پیشنهادهای برتر</p>
+            <div class="owl-carousel custom-owl-carousel">
+                <div>
+                    <div class="card justify-content-around align-items-center custom-card m-2">
+                        <img class="card-img-top" src="assets/img/ipad.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                                <p>تبلت ipad pro</p>
+                                <p class="mt-2">16000000 تومان</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card justify-content-around align-items-center custom-card m-2">
+                        <img class="card-img-top" src="assets/img/surface-pro.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                            <p>تبلت ipad pro</p>
+                            <p class="mt-2">16000000 تومان</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card justify-content-around align-items-center custom-card m-2">
+                        <img class="card-img-top" src="assets/img/phone-cover.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                            <p>تبلت ipad pro</p>
+                            <p class="mt-2">16000000 تومان</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card justify-content-around align-items-center custom-card m-2">
+                        <img class="card-img-top" src="assets/img/laptop.png" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                            <p>تبلت ipad pro</p>
+                            <p class="mt-2">16000000 تومان</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card justify-content-around align-items-center custom-card m-2">
+                        <img class="card-img-top" src="assets/img/asus-zenbook.png" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                            <p>تبلت ipad pro</p>
+                            <p class="mt-2">16000000 تومان</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end owl-carousel-1-->
+<!--start ads section-->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-12 col-md-3 ads-container mt-csm-2 text-center">
+            <img class="img-fluid" src="assets/img/ad1.jpg" alt="">
+        </div>
+        <div class="col-sm-12 col-md-3 ads-container mt-csm-2 text-center">
+            <img class="img-fluid" src="assets/img/ad2.jpg" alt="">
+        </div>
+        <div class="col-sm-12 col-md-3 ads-container mt-csm-2 text-center">
+            <img class="img-fluid" src="assets/img/ad3.jpg" alt="">
+        </div>
+        <div class="col-sm-12 col-md-3 ads-container mt-csm-2 text-center">
+            <img class="img-fluid" src="assets/img/ad4.jpg" alt="">
+        </div>
+    </div>
+</div>
+<!--end ads section-->
+<!--start owl carousel-2-->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <p class="carousel-top-title">گوشی موبایل</p>
+            <div class="owl-carousel custom-owl-carousel">
+                <div>
+                    <div class="card justify-content-around align-items-center custom-card m-2">
+                        <img class="card-img-top" src="assets/img/phone1.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                            <p>تبلت ipad pro</p>
+                            <p class="mt-2">16000000 تومان</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card justify-content-around align-items-center custom-card m-2">
+                        <img class="card-img-top" src="assets/img/phone2.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                            <p>تبلت ipad pro</p>
+                            <p class="mt-2">16000000 تومان</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card justify-content-around align-items-center custom-card m-2">
+                        <img class="card-img-top" src="assets/img/phone3.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                            <p>تبلت ipad pro</p>
+                            <p class="mt-2">16000000 تومان</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card justify-content-around align-items-center custom-card m-2">
+                        <img class="card-img-top" src="assets/img/phone4.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                            <p>تبلت ipad pro</p>
+                            <p class="mt-2">16000000 تومان</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card justify-content-around align-items-center custom-card m-2">
+                        <img class="card-img-top" src="assets/img/phone5.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <p class="card-text">
+                            <p>تبلت ipad pro</p>
+                            <p class="mt-2">16000000 تومان</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end owl carousel-2-->
+<!--start banner section-->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <img class="img-fluid" src="assets/img/banner1.jpg" alt="">
+        </div>
+    </div>
+</div>
+<!--end banner section-->
+<!--start carousel 3-->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <p class="carousel-top-title">برندهای برتر</p>
+            <div class="owl-carousel custom-owl-carousel">
+                <div>
+                    <div class="card justify-content-around align-items-center custom-card m-2">
+                        <img class="card-img-top" src="assets/img/brand1.png" alt="Card image cap">
+
+                    </div>
+                </div>
+                <div>
+                    <div class="card justify-content-around align-items-center custom-card m-2">
+                        <img class="card-img-top" src="assets/img/brand2.jpg" alt="Card image cap">
+
+                    </div>
+                </div>
+                <div>
+                    <div class="card justify-content-around align-items-center custom-card m-2">
+                        <img class="card-img-top" src="assets/img/brand3.png" alt="Card image cap">
+
+                    </div>
+                </div>
+                <div>
+                    <div class="card justify-content-around align-items-center custom-card m-2">
+                        <img class="card-img-top" src="assets/img/brand4.png" alt="Card image cap">
+                    </div>
+                </div>
+                <div>
+                    <div class="card justify-content-around align-items-center custom-card m-2">
+                        <img class="card-img-top" src="assets/img/brand5.png" alt="Card image cap">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end carousel 3-->
+<!--start banner section-->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-12 col-md-6">
+            <img class="img-fluid" src="assets/img/banner2.jpg" alt="">
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <img class="img-fluid" src="assets/img/banner3.jpg" alt="">
+        </div>
+    </div>
+</div>
+<!--end banner section-->
+<!--start footer-->
+<div class="container-fluid bg-light mt-5">
+    <div class="row">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-3 d-flex flex-column justify-content-center align-items-center footer-container mt-csm-2">
+                    <h6>عضویت در خبرنامه</h6>
+                    <p class="text-center">با عضویت از <span class="text-danger">30 درصد تخفیف</span> برخوردار شوید</p>
+                </div>
+                <div class="col-sm-12 col-md-4 footer-container mt-csm-2">
+                    <p>به <span class="text-success"> بیش از 22000 مشترک ما</span> بپیوندید و از تخفیف های ویژه هفتگی مختص اعضای خبرنامه بهره مند شوید</p>
+                </div>
+                <div class="col-sm-12 col-md-5 mt-csm-2">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="آدرس ایمیل...">
+                        <div class="input-group-append">
+                            <button class="btn btn-danger" type="button">اشتراک</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-3 footer-column d-flex flex-column justify-content-around align-items-start">
+                    <p>اطلاعات</p>
+                    <a class="text-decoration-none" href="#">درباره ما</a>
+                    <a class="text-decoration-none" href="#">تماس با ما</a>
+                    <a class="text-decoration-none" href="#">نحوه ارسال</a>
+                    <a class="text-decoration-none" href="#">محصولات جدید</a>
+                    <a class="text-decoration-none" href="#">محصولات منتخب</a>
+                    <a class="text-decoration-none" href="#">سابقه خرید</a>
+                </div>
+                <div class="col-sm-12 col-md-3 footer-column d-flex flex-column justify-content-around align-items-start mt-csm-2">
+                    <p>خدمات مشتریان</p>
+                    <a class="text-decoration-none" href="#">حساب کاربری</a>
+                    <a class="text-decoration-none" href="#">سبد خرید</a>
+                    <a class="text-decoration-none" href="#">علاقه مندیها</a>
+                    <a class="text-decoration-none" href="#">کاهش قیمت ها</a>
+                    <a class="text-decoration-none" href="#">سابقه خرید</a>
+                    <a class="text-decoration-none" href="#">سفارشات بین المللی</a>
+                </div>
+                <div class="col-sm-12 col-md-3 footer-column d-flex flex-column justify-content-around align-items-start mt-csm-2">
+                    <p>حساب کاربری</p>
+                    <a class="text-decoration-none" href="#">نقشه سایت</a>
+                    <a class="text-decoration-none" href="#">نقد و بررسی</a>
+                    <a class="text-decoration-none" href="#">نحوه ارسال</a>
+                    <a class="text-decoration-none" href="#">محصولات ویژه</a>
+                    <a class="text-decoration-none" href="#">خرید اقساطی</a>
+                    <a class="text-decoration-none" href="#">ویژه کارمندان دولت</a>
+                </div>
+                <div class="col-sm-12 contact-border col-md-3 d-flex flex-column justify-content-between align-items-center mt-csm-2">
+                    <p class="custom-border-bottom">اطلاعات تماس</p>
+                    <p class="custom-font"><i class="fas fa-headset"></i> پشتیبانی 24 ساعته</p>
+                    <a class="text-decoration-none" href="#"><i class="fas fa-phone"></i> تلفن: 02100000000</a>
+                    <div class="d-flex justify-content-around align-items-center w-100 custom-font-2">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <p class="custom-font text-center"><i class="fas fa-map-marker-alt"></i> آدرس: تهران-خیابان ولیعصر-کوچه بزرگهر-خوابگاه شرفی</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
